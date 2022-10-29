@@ -15,10 +15,11 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
-  padding: 94px 15px;
+  padding: 94px 0;
 }
 
 h1,
@@ -158,11 +159,12 @@ ul {
 /* Footer */
 
 .footer .container {
-  padding: 60px 15px;
+  padding: 0 15px;
 }
 
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 .logo-footer {
