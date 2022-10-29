@@ -20,14 +20,12 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container section">
+      <div class="container header-container">
         <nav class="site-nav">
           <a class="logo link" href="./" lang="en"><span class="logo-accent">Web</span>Studio</a>
           <ul class="list nav-list">
             <li class="nav-item"><a class="link" href="./index.html">Студія</a></li>
-            <li class="nav-item">
-              <a class="link link-current" href="./portfolio.html">Портфоліо</a>
-            </li>
+            <li class="nav-item"><a class="link link-current" href="./portfolio.html">Портфоліо</a></li>
             <li class="nav-item"><a class="link" href="">Контакти</a></li>
           </ul>
         </nav>
@@ -41,9 +39,10 @@
         </ul>
       </div>
     </header>
-    <!-- Portfolio -->
-    <section class="portfolio">
-      <div class="container section">
+    <main>
+      <!-- Portfolio -->
+    <section class="portfolio section">
+      <div class="container">
         <h1 class="section-title visually-hidden">Портфоліо</h1>
         <ul class="filter-list list">
           <li class="filter-item"><button class="filter-btn btn" type="button">Усі</button></li>
@@ -140,16 +139,17 @@
           </li>
         </ul>
       </div>
+    </main>
     </section>
     <!-- Footer -->
     <footer class="footer">
-      <div class="section container">
+      <div class="container">
         <a class="link logo logo-footer" href="./" lang="en"
           ><span class="logo-accent">Web</span>Studio</a
         >
         <address>
           <ul class="list footer-list">
-            <li>
+            <li class="footer-item">
               <a
                 class="link our-address"
                 href="https://goo.gl/maps/tJKo2RhC8Hp1i2VQ6"
@@ -159,8 +159,12 @@
                 м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="footer-item">
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="footer-item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>

@@ -14,10 +14,10 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .section {
-  margin: 0 auto;
   padding: 94px 15px;
 }
 
@@ -71,7 +71,7 @@ ul {
 
 /* Header */
 
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
   padding: 0 15px;
@@ -168,6 +168,7 @@ ul {
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 0px;
   padding: 0;
 
   color: var(--primary-button-color);
@@ -185,8 +186,13 @@ ul {
 
 /* Hero */
 
+.hero {
+  padding: 200px 0;
+}
+
 .hero-container {
-  padding: 200px 15px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -202,6 +208,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-button-color);
   background-color: var(--accent-color);
+  border: none;
 }
 
 .hero {
@@ -222,7 +229,7 @@ ul {
 
 /* Features */
 
-.features .section {
+.features {
   padding-bottom: 0;
 }
 
@@ -260,7 +267,7 @@ ul {
 
 .specialization-img img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -274,9 +281,15 @@ ul {
   display: flex;
 }
 
+.team-item {
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-item img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -321,7 +334,7 @@ ul {
 }
 
 .filter-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .filter-btn:hover,
@@ -352,6 +365,7 @@ ul {
 .example-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: 0;
 }
 
 .example-name {
