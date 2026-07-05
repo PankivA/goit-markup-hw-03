@@ -31,6 +31,7 @@ align-items: center;
 }
 
 .menu-link {
+    display: block;
     padding: 24px 0px;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -50,6 +51,7 @@ align-items: center;
 }
 
 .contacts-link {
+    display: block;
     padding: 24px 0px;
     color: #434455;
     letter-spacing: 0.02em;
