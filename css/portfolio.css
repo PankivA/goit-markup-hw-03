@@ -1,4 +1,20 @@
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-description {
+    border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
+
 .portfolio-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
