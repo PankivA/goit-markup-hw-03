@@ -10,6 +10,11 @@
 .team-item {
     width: calc((100% - 3 * 24px) / 4);
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-item img {
+    overflow: hidden;
 }
 
 .team-description {
